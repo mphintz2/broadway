@@ -20,7 +20,6 @@ nav {
 ul li {
   list-style: none;
   padding: .25em;
-  margin: 0;
 }
 
 nav a {
@@ -56,14 +55,7 @@ p {
   text-align: left;
 }
 
-.footer p, .footer nav, .footer ul, .footer li {
+.footer * {
   display: inline;
-}
-
-.footer p {
-  margin: 0 -40px 0 10px;
-}
-
-.footer li {
-  margin: -10px;
+  padding: 0;
 }
